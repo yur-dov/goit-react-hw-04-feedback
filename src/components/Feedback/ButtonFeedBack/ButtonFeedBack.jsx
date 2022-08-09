@@ -5,7 +5,8 @@ const ButtonFeedBack = ({ onClickButtonFeedback, buttonName }) => {
   return (
     <div>
       {buttonName.map(name => (
-        <button
+          <button
+              className={css}
           type="button"
           key={name}
           onClick={onClickButtonFeedback}
